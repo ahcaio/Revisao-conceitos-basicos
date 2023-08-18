@@ -78,3 +78,21 @@ var adulto = idade2 >= 18
 var possuiCNHValida = true
 
 var podeDirigir = adulto && possuiCNHValida
+!adulto
+
+//condicional if e else
+if idade2 >= 18 && possuiCNHValida {
+    print("Pode dirigir")
+} else {
+    print("Você não pode dirigir")
+}
+
+//else if
+var numero3 = 5
+var numero4 = 10
+
+if numero4 > numero3 {
+    print("Numero 4 é maior que o numero 3")
+} else if numero3 > numero4 {
+    print("Numero 3 é maior que o numero 4")
+}
